@@ -9,7 +9,7 @@ async function bootstrap() {
   await app.listen(PORT, () => {
     console.log(
       `Application is running on port ${PORT}. Url: http://localhost:${PORT}`,
-    );
+    ); 
   });
 }
 bootstrap();
